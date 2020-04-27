@@ -1,0 +1,486 @@
+body{
+	background-color: whitesmoke;
+}
+
+.content{
+	display: flex;
+}
+
+.full{
+	width: 70%;
+}
+
+.samping{
+	left:70%;
+	width: 30%;
+}
+
+.foto{
+	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+}
+
+.flip-img {
+  	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    margin: 0 auto;
+}
+
+.flip-img-inner {
+  	position: relative;
+  	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+  	transition: transform 0.5s;
+  	transform-style: preserve-3d;
+}
+
+.flip-img:hover .flip-img-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-img-front, .flip-img-back {
+  	position: absolute;
+	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+  	backface-visibility: hidden;
+}
+
+.flip-img-back {
+  transform: rotateY(180deg);
+}
+
+.card{
+	width: 85%;
+	margin: auto;
+	background-color: whitesmoke;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+	border-radius: 20px;
+	padding: 30px;
+	padding-top: 5px;
+	margin-top: 5%;
+	font-family: 'Century Gothic',sans-serif;
+}
+
+.head-style {
+	border-radius: 20px;
+	font-size: 20px;
+	padding: 40px;
+	background-color: rgba(0, 0, 0, 0.1);
+	text-align: center;
+	color: white;
+}
+
+h1{
+	color: rgb(9, 199, 237);
+}
+
+#spek{
+	display: flex;
+}
+
+nav{
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 5px;
+}
+
+nav a{
+	padding: 14px 16px;
+	color: rgb(9, 199, 237);
+	font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.genre li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: rgb(9, 199, 237);
+}
+
+.genre li{
+	
+	display: inline;
+	list-style: none;
+	padding: 4px 7px;
+	background: white;
+	border-radius: 10px;
+	transition: all ease-in-out 250ms;
+	cursor: pointer;
+}
+
+.genre li:hover{
+	background-color: rgba(9, 199, 237, 0.7);
+}
+
+.genre li a:hover{
+	color: black;
+}
+
+nav li:hover{
+	background-color: rgba(9, 199, 237, 0.7);
+}
+
+nav li a:hover{
+	color: black;
+}
+
+nav li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	list-style: none;
+	border-radius: 10px;
+	background-color:white;
+	padding: 14px 16px;
+	transition: all ease-in-out 250ms;
+}
+
+.identitas header{
+	text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    border-radius: 20px;
+}
+
+a footer{
+	text-decoration: none;
+}
+
+#minimum,#recommended ul{
+	font-family: 'Century Gothic',sans-serif;
+	font-size: 16px;
+}
+
+#recommended{
+	width: 50%;
+}
+
+#minimum{
+	width: 50%;
+}
+
+hr{
+	margin: 0;
+	opacity: 50%;
+}
+
+.hour{
+	
+	overflow:hidden;
+	width:340px;
+	margin: auto;
+	background-color:ghostwhite;
+	border-radius: 50px;
+}
+
+.jam{
+	float:left;
+	width:100px;
+	height:50px;
+	margin-right:20px;
+}
+
+.menit{
+	float:left;
+	width:100px;
+	height:50px;
+}
+
+.detik{
+	float:right;
+	width:100px;
+	height:50px;
+	margin-left:20px;
+}
+
+.hour p{
+	color:black;
+	font-size:30px;
+	text-align:center;
+	margin-top:4px;
+}
+
+div.date {
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
+div.date .name {
+	display: inline-block;
+}
+
+div.date .name p {
+	font-size: 13px;
+}
+
+.current-date {
+	color: black;
+}
+
+.digital-watch{
+	background-color: gainsboro;
+	width: 40%;
+	margin: auto;
+	border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+body{
+	background-color: whitesmoke;
+}
+
+.content{
+	display: flex;
+}
+
+.full{
+	width: 70%;
+}
+
+.samping{
+	left:70%;
+	width: 30%;
+}
+
+.foto{
+	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+}
+
+.flip-img {
+  	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    margin: 0 auto;
+}
+
+.flip-img-inner {
+  	position: relative;
+  	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+  	transition: transform 0.5s;
+  	transform-style: preserve-3d;
+}
+
+.flip-img:hover .flip-img-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-img-front, .flip-img-back {
+  	position: absolute;
+	border-radius: 50%;
+    width: 165px;
+    height: 165px;
+  	backface-visibility: hidden;
+}
+
+.flip-img-back {
+  transform: rotateY(180deg);
+}
+
+.card{
+	width: 85%;
+	margin: auto;
+	background-color: whitesmoke;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+	border-radius: 20px;
+	padding: 30px;
+	padding-top: 5px;
+	margin-top: 5%;
+	font-family: 'Century Gothic',sans-serif;
+}
+
+.head-style {
+	border-radius: 20px;
+	font-size: 20px;
+	padding: 40px;
+	background-color: rgba(0, 0, 0, 0.1);
+	text-align: center;
+	color: white;
+}
+
+h1{
+	color: rgb(9, 199, 237);
+}
+
+#spek{
+	display: flex;
+}
+
+nav{
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 5px;
+}
+
+nav a{
+	padding: 14px 16px;
+	color: rgb(9, 199, 237);
+	font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.genre li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: rgb(9, 199, 237);
+}
+
+.genre li{
+	
+	display: inline;
+	list-style: none;
+	padding: 4px 7px;
+	background: white;
+	border-radius: 10px;
+	transition: all ease-in-out 250ms;
+	cursor: pointer;
+}
+
+.genre li:hover{
+	background-color: rgba(9, 199, 237, 0.7);
+}
+
+.genre li a:hover{
+	color: black;
+}
+
+nav li:hover{
+	background-color: rgba(9, 199, 237, 0.7);
+}
+
+nav li a:hover{
+	color: black;
+}
+
+nav li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	list-style: none;
+	border-radius: 10px;
+	background-color:white;
+	padding: 14px 16px;
+	transition: all ease-in-out 250ms;
+}
+
+.identitas header{
+	text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    border-radius: 20px;
+}
+
+a footer{
+	text-decoration: none;
+}
+
+#minimum,#recommended ul{
+	font-family: 'Century Gothic',sans-serif;
+	font-size: 16px;
+}
+
+#recommended{
+	width: 50%;
+}
+
+#minimum{
+	width: 50%;
+}
+
+hr{
+	margin: 0;
+	opacity: 50%;
+}
+
+.hour{
+
+	overflow:hidden;
+	width:340px;
+	margin: auto;
+	background-color:ghostwhite;
+	border-radius: 50px;
+}
+
+.jam{
+	float:left;
+	width:100px;
+	height:50px;
+	margin-right:20px;
+}
+
+.menit{
+	float:left;
+	width:100px;
+	height:50px;
+}
+
+.detik{
+	float:right;
+	width:100px;
+	height:50px;
+	margin-left:20px;
+}
+
+.hour p{
+	color:black;
+	font-size:30px;
+	text-align:center;
+	margin-top:4px;
+}
+
+div.date {
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
+div.date .name {
+	display: inline-block;
+}
+
+div.date .name p {
+	font-size: 13px;
+}
+
+.current-date {
+	color: black;
+}
+
+.digital-watch{
+	background-color: gainsboro;
+	width: 40%;
+	margin: auto;
+	border-radius: 30px;
+}
+
+}
